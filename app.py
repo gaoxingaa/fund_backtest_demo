@@ -6,7 +6,7 @@ import datetime
 import re
 import io
 
-st.set_page_config(page_title="基金定投回测系统（测试版）", layout="wide")
+st.set_page_config(page_title="基金定投回测系统（测试版）")
 st.title("📈 基金定投回测系统（测试版）")
 
 fund_code = st.text_input("基金代码（如：161725）", value="161725")
